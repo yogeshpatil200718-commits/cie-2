@@ -4,7 +4,7 @@ def withdraw(balance, amount):
         print("Success")
     return balance
     print("Insufficient Balance")
-
+    
 if __name__ == "__main__":
     bal = float(input("Initial balance: "))
     amt = float(input("Withdrawal amount: "))
